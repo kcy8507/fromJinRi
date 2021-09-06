@@ -515,6 +515,10 @@ input[type]:focus,
   .bag__img9 {
     display: none;
   }
+  .gallery__imgContainer > div {
+    width: 457px;
+    height: 457px;
+  }
 }
 
 @media screen and (max-width: 1500px) {
@@ -532,6 +536,10 @@ input[type]:focus,
   .bag__img9 {
     width: 620px;
     height: 770px;
+  }
+  .gallery__imgContainer > div {
+    width: 400px;
+    height: 400px;
   }
 }
 
@@ -569,6 +577,10 @@ input[type]:focus,
     width: 520px;
     height: 650px;
   }
+  .gallery__imgContainer > div {
+    width: 527px;
+    height: 527px;
+  }
 }
 
 @media screen and (max-width: 1100px) {
@@ -587,6 +599,39 @@ input[type]:focus,
     width: 420px;
     height: 540px;
   }
+  .gallery__imgContainer > div {
+    width: 427px;
+    height: 427px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .contact__container {
+    margin-top: 50px;
+  }
+  .contact__personalform .contact__form {
+    width: 696px;
+    margin-top: 10px;
+  }
+  .contact__personalform .contact__email {
+    width: 696px;
+    margin-top: 10px;
+  }
+  .contact__personalform {
+    flex-direction: column;
+  }
+  .contact__contents {
+    width: 696px;
+    margin-top: 20px;
+  }
+  textarea {
+    width: 696px;
+  }
+  .contact__btn {
+    width: 206px;
+    height: 57px;
+    font-size: 1.2rem;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -604,6 +649,10 @@ input[type]:focus,
   .bag__img9 {
     width: 360px;
     height: 450px;
+  }
+  .gallery__imgContainer > div {
+    width: 357px;
+    height: 357px;
   }
 }
 
@@ -685,41 +734,62 @@ input[type]:focus,
     height: 100%;
   }
   .gallery__imgContainer > div {
-    width: 340px;
-    height: 340px;
+    width: 330px;
+    height: 330px;
   }
   .gallery__imgContainer {
     margin: 130px 0px 30px 0px;
   }
+}
 
-  #contact {
-    height: 100%;
+@media screen and (max-width: 700px) {
+  .inner {
+    width: 600px;
   }
-  .contact__container {
-    margin-top: 50px;
+  .bag__img1,
+  .bag__img2,
+  .bag__img3,
+  .bag__img4,
+  .bag__img5,
+  .bag__img6,
+  .bag__img7,
+  .bag__img8 {
+    width: 284px;
+    height: 358px;
+  }
+  .gallery__imgContainer > div {
+    width: 277px;
+    height: 277px;
   }
   .contact__personalform .contact__form {
-    width: 696px;
-    margin-top: 10px;
-  }
-  .contact__personalform .contact__email {
-    width: 696px;
-    margin-top: 10px;
-  }
-  .contact__personalform {
-    flex-direction: column;
+    width: 420px;
   }
   .contact__contents {
-    width: 696px;
+    width: 420px;
     margin-top: 20px;
   }
   textarea {
-    width: 696px;
+    width: 420px;
   }
-  .contact__btn {
-    width: 206px;
-    height: 57px;
-    font-size: 1.2rem;
+}
+@media screen and (max-width: 600px) {
+  .inner {
+    width: 500px;
+  }
+  .bag__img1,
+  .bag__img2,
+  .bag__img3,
+  .bag__img4,
+  .bag__img5,
+  .bag__img6,
+  .bag__img7,
+  .bag__img8 {
+    width: 500px;
+    height: 630px;
+  }
+  .gallery__imgContainer > div {
+    width: 230px;
+    height: 230px;
   }
 }
 
@@ -729,9 +799,9 @@ input[type]:focus,
   }
   #main {
     background-image: url(/images/mobile_main.png);
-    width: 480px;
     height: 813px;
     background-position: center;
+    background-size: cover;
   }
 
   .sidenav__logo {

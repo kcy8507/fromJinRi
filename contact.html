@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/reset.css" />
     <script src="/js/main.js" defer></script>
+    <script src="/js/form-submission-handler.js" defer></script>
     <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -97,31 +98,49 @@
               연락 드리겠습니다.
             </p>
           </div>
-          <div class="contact__personalform">
+          <form
+            class="contact__personalform gform"
+            method="POST"
+            action="https://script.google.com/macros/s/AKfycbwv6BR7gJ1izmctaO_0cP-DU035rtTgD8etimTh/exec"
+          >
             <div class="contact__form">
-              <input type="text" required />
+              <input id="name" name="이름" required />
               <div class="underline"></div>
               <label>이름</label>
             </div>
             <div class="contact__form">
-              <input type="text" required />
+              <input id="phone" name="전화번호" required />
               <div class="underline"></div>
               <label>전화번호</label>
             </div>
-          </div>
-          <div class="contact__personalform">
+          </form>
+          <form
+            class="contact__personalform gform"
+            method="POST"
+            action="https://script.google.com/macros/s/AKfycbwv6BR7gJ1izmctaO_0cP-DU035rtTgD8etimTh/exec"
+          >
             <div class="contact__form contact__email">
-              <input type="text" required />
+              <input
+                id="email"
+                name="이메일주소"
+                type="text"
+                value=""
+                required
+              />
               <div class="underline"></div>
               <label>이메일주소</label>
             </div>
-          </div>
+          </form>
 
-          <div class="contact__contents">
+          <form
+            class="contact__contents gform"
+            method="POST"
+            action="https://script.google.com/macros/s/AKfycbwv6BR7gJ1izmctaO_0cP-DU035rtTgD8etimTh/exec"
+          >
             <label>문의내용</label>
-            <textarea></textarea>
-          </div>
-          <button class="contact__btn">문의하기</button>
+            <textarea id="message" name="문의내용"></textarea>
+            <button class="contact__btn">문의하기</button>
+          </form>
         </div>
       </div>
     </section>

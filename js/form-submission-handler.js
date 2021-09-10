@@ -74,7 +74,7 @@
     xhr.onreadystatechange = function () {
       if (xhr.readyState === 4 && xhr.status === 200) {
         form.reset();
-        var formElements = form.querySelector(".contact__personalform");
+        var formElements = form.querySelector(".contact__form");
         if (formElements) {
           // formElements.style.display = 'none'
           // hide form

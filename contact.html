@@ -41,8 +41,8 @@
   </head>
   <body>
     <section id="contact">
-      <div class="black_bg"></div>
-      <div class="sidenav">
+      <div class="black_bg hidden"></div>
+      <div class="sidenav hidden">
         <div class="sidenav__cancel">
           <a href="#" class="cancel"><img src="/images/cancel.svg" /></a>
         </div>
@@ -98,49 +98,40 @@
               연락 드리겠습니다.
             </p>
           </div>
-          <form
-            class="contact__personalform gform"
-            method="POST"
-            action="https://script.google.com/macros/s/AKfycbwv6BR7gJ1izmctaO_0cP-DU035rtTgD8etimTh/exec"
-          >
-            <div class="contact__form">
-              <input id="name" name="이름" required />
-              <div class="underline"></div>
-              <label>이름</label>
-            </div>
-            <div class="contact__form">
-              <input id="phone" name="전화번호" required />
-              <div class="underline"></div>
-              <label>전화번호</label>
-            </div>
-          </form>
-          <form
-            class="contact__personalform gform"
-            method="POST"
-            action="https://script.google.com/macros/s/AKfycbwv6BR7gJ1izmctaO_0cP-DU035rtTgD8etimTh/exec"
-          >
-            <div class="contact__form contact__email">
-              <input
-                id="email"
-                name="이메일주소"
-                type="text"
-                value=""
-                required
-              />
-              <div class="underline"></div>
-              <label>이메일주소</label>
-            </div>
-          </form>
-
-          <form
-            class="contact__contents gform"
-            method="POST"
-            action="https://script.google.com/macros/s/AKfycbwv6BR7gJ1izmctaO_0cP-DU035rtTgD8etimTh/exec"
-          >
-            <label>문의내용</label>
-            <textarea id="message" name="문의내용"></textarea>
-            <button class="contact__btn">문의하기</button>
-          </form>
+          <div class="contact__personalform">
+            <form
+              class="contact__contents gform"
+              method="POST"
+              action="https://script.google.com/macros/s/AKfycbwv6BR7gJ1izmctaO_0cP-DU035rtTgD8etimTh/exec"
+            >
+              <div class="flex">
+                <div class="contact__form">
+                  <input id="name" name="이름" required />
+                  <div class="underline"></div>
+                  <label>이름</label>
+                </div>
+                <div class="contact__form">
+                  <input id="phone" name="전화번호" required />
+                  <div class="underline"></div>
+                  <label>전화번호</label>
+                </div>
+              </div>
+              <div class="contact__form contact__email">
+                <input
+                  id="email"
+                  name="이메일주소"
+                  type="text"
+                  value=""
+                  required
+                />
+                <div class="underline"></div>
+                <label>이메일주소</label>
+              </div>
+              <label>문의내용</label>
+              <textarea id="message" name="문의내용"></textarea>
+              <button class="contact__btn">문의하기</button>
+            </form>
+          </div>
         </div>
       </div>
     </section>

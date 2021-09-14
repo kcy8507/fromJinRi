@@ -898,3 +898,42 @@ input[type]:focus,
     width: 420px;
   }
 }
+
+/* -----------------------------media query 추가--------------------------- */
+
+@media screen and (max-width: 480px) {
+  .inner {
+    width: 350px;
+  }
+
+  #brand {
+    height: 100%;
+    margin-bottom: 250px;
+  }
+
+  .bag__img1,
+  .bag__img2,
+  .bag__img3,
+  .bag__img4,
+  .bag__img5,
+  .bag__img6,
+  .bag__img7,
+  .bag__img8 {
+    width: 348px;
+    height: 438px;
+  }
+
+  .bag8 {
+    margin-bottom: 60px;
+  }
+
+  .contact__personalform .contact__form {
+    width: 350px;
+  }
+  .contact__contents {
+    width: 350px;
+  }
+  textarea {
+    width: 350px;
+  }
+}

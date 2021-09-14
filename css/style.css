@@ -4,6 +4,11 @@
   --accent-color: red;
 }
 
+body {
+  /* position: relative; */
+  word-break: keep-all;
+}
+
 .inner {
   position: relative;
   margin: 0 auto;
@@ -18,6 +23,12 @@
   background-size: cover;
   background-position: center;
 }
+
+/* .nav__container {
+  position: fixed;
+  left: 0;
+  top: 0;
+} */
 
 .nav {
   position: relative;

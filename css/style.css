@@ -5,7 +5,7 @@
 }
 
 body {
-  /* position: relative; */
+  position: relative;
   word-break: keep-all;
 }
 
@@ -19,17 +19,17 @@ body {
 #main {
   width: 100%;
   height: 1068px;
-  background-image: url("/images/main_image@3x.png");
+  background-image: url("../images/main_image@3x.png");
   background-size: cover;
   background-position: center;
 }
 
-/* .nav__container {
+.nav__container {
   position: fixed;
   left: 0;
   top: 0;
-} */
-
+  left: 6%;
+}
 .nav {
   position: relative;
   padding-top: 40px;
@@ -142,7 +142,7 @@ body {
 .logo {
   width: 197px;
   height: 42px;
-  background-image: url(/images/logo.png);
+  background-image: url("../images/logo.png");
   background-position: center;
   background-size: cover;
 }
@@ -202,7 +202,7 @@ body {
 .brand__img1 {
   width: 506px;
   height: 706px;
-  background-image: url(/images/12@3x.png);
+  background-image: url("../images/12@3x.png");
   background-size: cover;
   background-position: center;
   margin: 99px 0px 100px 0px;
@@ -211,7 +211,7 @@ body {
 .brand__img2 {
   width: 311px;
   height: 438px;
-  background-image: url(/images/23@3x.png);
+  background-image: url("../images/23@3x.png");
   background-size: cover;
   background-position: center;
   margin-top: 302px;
@@ -291,35 +291,35 @@ body {
 }
 
 .bag__img1 {
-  background-image: url(/images/93e47257dd46878f2b3c065d45bb93d7@3x.png);
+  background-image: url("../images/93e47257dd46878f2b3c065d45bb93d7@3x.png");
 }
 
 .bag__img2 {
-  background-image: url(/images/2e956c575163cb004d14b1585dd19d66@3x.png);
+  background-image: url("../images/2e956c575163cb004d14b1585dd19d66@3x.png");
 }
 
 .bag__img3 {
-  background-image: url(/images/cddcd1a97073964e809582cfbc3ad336@3x.png);
+  background-image: url("../images/cddcd1a97073964e809582cfbc3ad336@3x.png");
 }
 
 .bag__img4 {
-  background-image: url(/images/90c4cb7f7d0f3031653f05705ec5ef78DD@3x.png);
+  background-image: url("../images/90c4cb7f7d0f3031653f05705ec5ef78DD@3x.png");
 }
 
 .bag__img5 {
-  background-image: url(/images/detail_ostramini_cacao8_shop1_153048@3x.png);
+  background-image: url("../images/detail_ostramini_cacao8_shop1_153048@3x.png");
 }
 
 .bag__img6 {
-  background-image: url(/images/ca8633cd309252395620548624495c62@3x.png);
+  background-image: url("../images/ca8633cd309252395620548624495c62@3x.png");
 }
 
 .bag__img7 {
-  background-image: url(/images/4@3x.png);
+  background-image: url("../images/4@3x.png");
 }
 
 .bag__img8 {
-  background-image: url(/images/2@3x.png);
+  background-image: url("../images/2@3x.png");
 }
 
 /* ----------------------------gallery section------------------------- */
@@ -340,40 +340,40 @@ body {
 }
 
 .gallery__img1 {
-  background-image: url("/images/23@3x.png");
+  background-image: url("../images/23@3x.png");
 }
 .gallery__img2 {
-  background-image: url("/images/detail_ostramini_cacao2_shop1_153048@3x.png");
+  background-image: url("../images/detail_ostramini_cacao2_shop1_153048@3x.png");
 }
 .gallery__img3 {
-  background-image: url("/images/detail_ostramini_cacao8_shop1_153048@3x.png");
+  background-image: url("../images/detail_ostramini_cacao8_shop1_153048@3x.png");
 }
 .gallery__img4 {
-  background-image: url("/images/b350c0005cf934423175176d875ddd4f22@3x.png");
+  background-image: url("../images/b350c0005cf934423175176d875ddd4f22@3x.png");
 }
 .gallery__img5 {
-  background-image: url("/images/29466716734_934f972e67_o@3x.png");
+  background-image: url("../images/29466716734_934f972e67_o@3x.png");
 }
 .gallery__img6 {
-  background-image: url("/images/b350c0005cf934423175176d875ddd4f@3x.png");
+  background-image: url("../images/b350c0005cf934423175176d875ddd4f@3x.png");
 }
 .gallery__img7 {
-  background-image: url("/images/alex-lvrs-4N5huJDOydQ-unsplash@3x.png");
+  background-image: url("../images/alex-lvrs-4N5huJDOydQ-unsplash@3x.png");
 }
 .gallery__img8 {
-  background-image: url("/images/c348891b66e0ed91d4755de50ea158c8@3x.png");
+  background-image: url("../images/c348891b66e0ed91d4755de50ea158c8@3x.png");
 }
 .gallery__img9 {
-  background-image: url("/images/90c4cb7f7d0f3031653f05705ec5ef78DD@3x.png");
+  background-image: url("../images/90c4cb7f7d0f3031653f05705ec5ef78DD@3x.png");
 }
 .gallery__img10 {
-  background-image: url("/images/2e956c575163cb004d14b1585dd19d66@3x.png");
+  background-image: url("../images/2e956c575163cb004d14b1585dd19d66@3x.png");
 }
 .gallery__img11 {
-  background-image: url("/images/12333@3x.png");
+  background-image: url("../images/12333@3x.png");
 }
 .gallery__img12 {
-  background-image: url("/images/cddcd1a97073964e809582cfbc3ad336@3x.png");
+  background-image: url("../images/cddcd1a97073964e809582cfbc3ad336@3x.png");
 }
 
 /* ------------------------contact section ---------------------- */
@@ -827,7 +827,7 @@ input[type]:focus,
     width: 410px;
   }
   #main {
-    background-image: url(/images/mobile_main.png);
+    background-image: url("../images/mobile_main.png");
     height: 813px;
     background-position: center;
     background-size: cover;
@@ -842,7 +842,7 @@ input[type]:focus,
     background-size: cover;
     width: 143px;
     height: 32px;
-    background-image: url(/images/mobile_logo.png);
+    background-image: url("../images/mobile_logo.png");
     margin-top: 5px;
   }
   .sidenav {

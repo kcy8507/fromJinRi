@@ -24,12 +24,13 @@ body {
   background-position: center;
 }
 
-.nav__container {
+/* .nav__container {
   position: fixed;
   left: 0;
   top: 0;
   left: 6%;
-}
+} */
+
 .nav {
   position: relative;
   padding-top: 40px;

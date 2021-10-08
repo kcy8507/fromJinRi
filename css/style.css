@@ -214,7 +214,7 @@ body {
 .brand__bg {
   width: 100%;
   height: 908px;
-  background-image: url(../images/brand_bg.png);
+  background-image: url("../images/brand_bg.png");
   background-size: cover;
   background-position: center;
 }
@@ -668,7 +668,7 @@ input[type]:focus,
   }
 
   .brand__bg {
-    background-image: url(../images/tab_brand.png);
+    background-image: url("../images/tab_brand.png");
   }
 
   #store {
@@ -852,7 +852,7 @@ input[type]:focus,
   }
 
   .brand__bg {
-    background-image: url(../images/mobile_brand.png);
+    background-image: url("../images/mobile_brand.png");
     width: 100%;
     height: 100vh;
   }

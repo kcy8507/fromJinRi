@@ -274,7 +274,8 @@ body {
 .hair__img2,
 .hair__img3,
 .hair__img4,
-.hair__img5 {
+.hair__img5,
+.hair__img6 {
   width: 527px;
   height: 660px;
   background-size: cover;
@@ -288,7 +289,8 @@ body {
 .hair__content2,
 .hair__content3,
 .hair__content4,
-.hair__content5 {
+.hair__content5,
+.hair__content6 {
   margin: 20px 0px 100px 0px;
   font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
@@ -324,6 +326,13 @@ body {
 }
 .hair__img5 {
   background-image: url("../images/hair_5.png");
+}
+.hair__img6 {
+  background-image: url("../images/hair_5.png");
+}
+
+.hair6 {
+  visibility: hidden;
 }
 
 /* ----------------------------gallery section------------------------- */

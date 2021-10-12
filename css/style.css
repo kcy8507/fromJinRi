@@ -335,6 +335,14 @@ body {
   visibility: hidden;
 }
 
+.bags__hairs-link {
+  text-decoration: none;
+}
+
+.bags__hairs-link:visited {
+  text-decoration: none;
+}
+
 /* ----------------------------gallery section------------------------- */
 
 .gallery__imgContainer {

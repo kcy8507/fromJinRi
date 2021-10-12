@@ -585,7 +585,8 @@ input[type]:focus,
   .hair__img2,
   .hair__img3,
   .hair__img4,
-  .hair__img5 {
+  .hair__img5,
+  .hair__img6 {
     width: 420px;
     height: 540px;
   }
@@ -641,13 +642,17 @@ input[type]:focus,
   .hair__img2,
   .hair__img3,
   .hair__img4,
-  .hair__img5 {
+  .hair__img5,
+  .hari__img6 {
     width: 360px;
     height: 450px;
   }
   .gallery__imgContainer > .lightwidget-widget {
     width: 357px;
     height: 357px;
+  }
+  .hair6 {
+    display: none;
   }
 }
 
@@ -698,7 +703,8 @@ input[type]:focus,
   .hair__img2,
   .hair__img3,
   .hair__img4,
-  .hair__img5 {
+  .hair__img5,
+  .hair__img6 {
     width: 324px;
     height: 428px;
   }
@@ -710,7 +716,8 @@ input[type]:focus,
   .hair__content2,
   .hair__content3,
   .hair__content4,
-  .hair__content5 {
+  .hair__content5,
+  .hair__content6 {
     margin-bottom: 40px;
   }
 
@@ -738,7 +745,8 @@ input[type]:focus,
   .hair__img2,
   .hair__img3,
   .hair__img4,
-  .hair__img5 {
+  .hair__img5,
+  .hair__img6 {
     width: 284px;
     height: 358px;
   }
@@ -769,7 +777,8 @@ input[type]:focus,
   .hair__img2,
   .hair__img3,
   .hair__img4,
-  .hair__img5 {
+  .hair__img5,
+  .hair__img6 {
     width: 500px;
     height: 630px;
   }
@@ -825,7 +834,8 @@ input[type]:focus,
   .hair__img2,
   .hair__img3,
   .hair__img4,
-  .hair__img5 {
+  .hair__img5,
+  .hair__img6 {
     width: 422px;
     height: 528px;
   }
@@ -885,7 +895,8 @@ input[type]:focus,
   .hair__img2,
   .hair__img3,
   .hair__img4,
-  .hair__img5 {
+  .hair__img5,
+  .hair__img6 {
     width: 348px;
     height: 438px;
   }

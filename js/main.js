@@ -10,6 +10,14 @@ const hairsCateg = document.querySelector(".store__categ--hairs");
 const bagsItems = document.querySelector(".store__bagContainer");
 const hairsItems = document.querySelector(".store__hairContainer");
 
+// const searchBtn = document.querySelector(".searchBtn");
+// const searchInput = document.querySelector(".searchBar");
+
+// searchBtn.addEventListener("click", function () {
+//   searchInput.classList.toggle("hidden");
+//   searchBtn.classList.toggle("searchBtn__animate");
+// });
+
 toggleBtn.addEventListener("click", function () {
   nav.classList.toggle("hidden");
   blackBg.classList.toggle("hidden");
